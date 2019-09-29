@@ -1,0 +1,220 @@
+body {
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(20, 255, 155);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(12, 22, 158);
+}
+
+nav {
+    top: 50%;
+    left: -20%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    justify-content: space-evenly;
+    transform: rotate(-90deg);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(12, 22, 158);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255)
+}
+
+#top {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0%;
+    padding: 5% 0 0 10%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(12, 22, 158);
+    font-size: 15vh;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+}
+
+#locBox {
+    top: 10vh;
+    left:80vw;
+    width: 20vw;
+    height:10vw;
+    position: absolute;
+    float: right;
+    background-color: rgb(12, 22, 158);
+}
+
+h3 {
+    font-size: 1.5vw;
+    padding: 1vw;
+    color: rgb(20, 255, 155);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+#line {
+    width: 90vw;
+    padding: 5vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+
+    color: rgb(12, 22, 158);
+    font-size: 4vw; 
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 15vw;
+    margin: 10vh;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+}
+
+.hour {
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: row;
+}
+
+.hour h4 {
+    width: 20vw;
+    padding-left: 10vw;
+    
+    margin: 0;
+    font-size: 2vw;
+}
+
+.hour img {
+}
+
+.cont {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding-left: 5vw;
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.cont p{
+    padding-right: 5%;
+    
+}
+
+.movBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0 5% 0;
+}
+
+.sub{
+    line-height: 200%;
+}
+
+.titSub {
+    width: 30%;
+    font-style: italic;
+}
+
+.artSub {
+    width: 50%;
+    font-weight: 700;
+}
+
+.couSub {
+    width: 10%;
+    font-style: italic;
+}
+
+.timSub {
+    width: 10%;
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+/* Small laptop */
+@media screen and (max-width: 1100px) {
+    nav {
+        left: -30%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+    nav {
+        transform: rotate(0);
+        left:0;
+        top:0;
+        width: 100vw;
+        padding: 2% 0 2% 0;
+        background-color: rgba(20, 255, 155, 0.7);
+        flex-direction: row-reverse;
+    }
+
+    .hour h4 {
+        padding-left: 5vw;
+    }
+
+    h1 {
+        font-size: 13vh;
+        margin-top: 10vh;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 7vh;
+        margin-top: 35vh;
+    }
+
+    .hour img {
+        height: 50vh;
+    }
+
+    nav {
+        padding: 4% 0 4% 0;
+    }
+
+    nav a {
+        font-size: 2.5vw;
+    }
+
+}
+
+/* 4K */
+@media screen and (min-width: 2000px) {
+    nav {
+        left: -25%;
+    }
+}
