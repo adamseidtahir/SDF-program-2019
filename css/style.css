@@ -9,13 +9,29 @@ body {
 
 nav {
     top: 50%;
-    left: -20%;
+    left: -45vh;
     position: fixed;
     display: flex;
     flex-direction: row;
     width: 100vh;
     justify-content: space-evenly;
     transform: rotate(-90deg);
+}
+
+#ticket:hover {
+    width: 16vw;
+    left: 82.5vw;
+    top: 3.5vh;
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
+
+#ticket {
+    position: fixed;
+    width: 15vw;
+    top: 4vh;
+    left: 90vw;
+    z-index: 1;
 }
 
 nav a {
@@ -32,7 +48,6 @@ nav a:hover {
 }
 
 #top {
-    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -40,7 +55,7 @@ nav a:hover {
 }
 
 h1 {
-    margin: 0%;
+    margin-top: 0%;
     padding: 5% 0 0 10%;
     font-family: 'Poppins', sans-serif;
     color: rgb(12, 22, 158);
@@ -50,7 +65,7 @@ h1 {
 }
 
 #locBox {
-    top: 10vh;
+    top: 25vh;
     left:80vw;
     width: 20vw;
     height:10vw;
@@ -164,9 +179,10 @@ main {
 
 /* Small laptop */
 @media screen and (max-width: 1100px) {
-    nav {
-        left: -30%;
-    }
+  h1 {
+      font-size: 10vw;
+  }
+    
 }
 
 /* Tablet */
@@ -186,8 +202,24 @@ main {
     }
 
     h1 {
-        font-size: 13vh;
-        margin-top: 10vh;
+        font-size: 13vw;
+        margin-top: 30vh;
+    }
+
+    #locBox {
+        top: 30vh;
+    }
+
+    #ticket {
+        top: 10vh;
+        left: 87vw;
+        width: 20vw;
+    }
+
+    #ticket:hover {
+        width: 21vw;
+        top: 9.5vh;
+        left: 76.5vw;
     }
 }
 
@@ -210,11 +242,25 @@ main {
         font-size: 2.5vw;
     }
 
+    #ticket {
+        top: 10vh;
+        left: 87vw;
+        width: 20vw;
+    }
+
+    #ticket:hover {
+        width: 21vw;
+        top: 9.5vh;
+        left: 76.5vw;
+    }
+
+    #locBox {
+        top: 25vh;
+    }
+
 }
 
 /* 4K */
 @media screen and (min-width: 2000px) {
-    nav {
-        left: -25%;
-    }
+    
 }
