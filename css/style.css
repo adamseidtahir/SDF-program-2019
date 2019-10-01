@@ -7,6 +7,10 @@ body {
     color: rgb(12, 22, 158);
 }
 
+#thumbnail {
+    display: none;
+}
+
 nav {
     top: 50%;
     left: -45vh;
