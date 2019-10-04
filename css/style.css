@@ -125,9 +125,6 @@ main {
     font-size: 2vw;
 }
 
-.hour img {
-}
-
 .cont {
     align-self: center;
     display: flex;
@@ -142,6 +139,16 @@ main {
 .cont h5{
     margin: 0;
     font-size: 1.5vw;
+}
+
+.cont h5 a {
+    text-decoration: none;
+    color: rgb(12, 22, 158);
+}
+
+.cont h5 a:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .cont p{
