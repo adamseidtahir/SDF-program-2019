@@ -163,6 +163,26 @@ main {
     padding: 5% 0 5% 0;
 }
 
+.grid {
+    /* width: 100%; */
+    align-items: center;
+    margin: 10% 3% 10% 0;
+    display: grid; 
+    grid-template-areas: "a b c d";
+}
+
+.grid p {
+    margin: 0 1vw 1vw 0;
+}
+
+.filmTit {
+    font-style: italic;
+}
+
+.filmArt {
+    font-weight: 700;
+}
+
 .sub{
     line-height: 200%;
 }
