@@ -213,6 +213,7 @@ main {
 }
 
 footer {
+    font-size: 1.5vw;
     padding-left: 5%;
 }
 
@@ -271,6 +272,23 @@ footer a:hover {
         top: 9.5vh;
         left: 76.5vw;
     }
+
+    main .day .hour h4 {
+        font-size: 2.5vw;
+    }
+
+    .cont {
+        font-size: 2vw;
+    }
+
+    .cont h5 {
+        font-size: 2vw;
+    }
+
+    .title {
+        font-size: 5vw;
+        padding-left: 0;
+    }
 }
 
 /* Phone */
@@ -280,8 +298,21 @@ footer a:hover {
         margin-top: 35vh;
     }
 
-    .hour img {
-        height: 50vh;
+    main .day .hour h4 {
+        font-size: 3vw;
+    }
+
+    .cont {
+        font-size: 2.5vw;
+    }
+
+    .cont h5 {
+        font-size: 2.5vw;
+    }
+
+    .title {
+        font-size: 6vw;
+        padding-left: 0;
     }
 
     nav {
@@ -306,6 +337,10 @@ footer a:hover {
 
     #locBox {
         top: 25vh;
+    }
+
+    footer {
+        font-size: 4vw;
     }
 
 }
