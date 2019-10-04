@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 #top {
@@ -136,6 +136,12 @@ main {
     padding-left: 5vw;
     margin: 0;
     font-size: 1.5vw;
+
+}
+
+.cont h5{
+    margin: 0;
+    font-size: 1.5vw;
 }
 
 .cont p{
@@ -189,7 +195,7 @@ footer a {
 }
 
 footer a:hover {
-    color: grey;
+    color: rgb(12, 22, 158);
 }
 
 
