@@ -52,6 +52,7 @@ nav a:hover {
 }
 
 #top {
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -173,6 +174,13 @@ main {
 
 .filmTit {
     font-style: italic;
+    transition: all 0.2s linear;
+}
+
+.filmTit:hover {
+    color: white;
+    cursor: pointer;
+
 }
 
 .filmArt {
@@ -222,8 +230,75 @@ footer a:hover {
     color: rgb(12, 22, 158);
 }
 
+
+
+/* Modal window with word information */
+#modal {
+    position: fixed;
+    top: 20vh;
+    
+    left: 25vw;
+    width: 50vw;
+    padding: 2% 4% 4% 4%;
+    display: none;
+    background-color: rgb(12, 22, 158);
+    color:rgb(255, 195, 67);
+    align-self: center;
+    opacity:0;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+/* Text inside modal */
+#modText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#modText ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#modText ul li {
+    padding-top: 5%;
+}
+
+/* Shadow to darken rest of page while modal is open */
+#shadow {
+    display:none;
+    opacity: 0;
+    width:100vw;
+    height:100%;
+    position: fixed;
+    background-color: #0000006c;
+    z-index: 1;
+}
+
+.close {
+    top: 2vh;
+    right: 4vh;
+    position: absolute;
+    font-size: 2em;
+    transition: all 0.2s linear;
+}
+
+.close:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+
+/* MEDIA QUERYS */
+
 /* Tablet */
 @media screen and (max-width: 800px) {
+    #top {
+        height: 50vh;
+    }
     nav {
         transform: rotate(0);
         left:0;
