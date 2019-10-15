@@ -425,6 +425,10 @@ footer a:hover {
         font-size: 0.75em;
     }
 
+    .close {
+        right: 2vh;
+    }
+
 }
 
 /* 4K */
