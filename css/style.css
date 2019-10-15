@@ -237,9 +237,9 @@ footer a:hover {
     position: fixed;
     top: 20vh;
     
-    left: 25vw;
+    left: 21vw;
     width: 50vw;
-    padding: 2% 4% 4% 4%;
+    padding: 4vw;
     display: none;
     background-color: rgb(12, 22, 158);
     color:rgb(255, 195, 67);
@@ -406,6 +406,12 @@ footer a:hover {
 
     footer {
         font-size: 4vw;
+    }
+
+    #modal {
+        top: 12vh;
+        left: 6vw;
+        Width: 80vw;
     }
 
     #modText h1 {
