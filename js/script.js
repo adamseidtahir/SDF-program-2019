@@ -1,6 +1,16 @@
 
-//Refresh on resize, so evrything scales correctly
-window.onresize = function(){ location.reload(); }
+const mq = window.matchMedia( "(min-width: 1100px)" );
+
+if (mq.matches) {
+    //Refresh on resize, so evrything scales correctly
+    window.onresize = function(){ location.reload(); }
+    //    alert("window width >= 1100px");
+} else {
+    //  alert("window width < 1100px");
+}
+
+
+
 
 //Top section animations
 TweenMax.from('#line', 1, {marginLeft:"-100%"});
