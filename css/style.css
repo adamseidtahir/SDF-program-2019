@@ -411,7 +411,10 @@ footer a:hover {
     #modal {
         top: 12vh;
         left: 6vw;
-        Width: 80vw;
+        width: 80vw;
+        height: 60vh;
+        overflow: scroll;
+
     }
 
     #modText h1 {
