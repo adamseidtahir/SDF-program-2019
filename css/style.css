@@ -349,6 +349,11 @@ footer a:hover {
         font-size: 5vw;
         padding-left: 0;
     }
+
+    .close {
+        top: 0vh;
+        right: 1vh;
+    }
 }
 
 /* Phone */
@@ -403,9 +408,25 @@ footer a:hover {
         font-size: 4vw;
     }
 
+    #modText h1 {
+        font-size: 1.5em;
+    }
+
+    #modText ul li {
+        font-size: 0.75em;
+    }
+
 }
 
 /* 4K */
 @media screen and (min-width: 2000px) {
+
+    #modText h1 {
+        font-size: 4em;
+    }
+
+    #modText ul li {
+        font-size: 2em;
+    }
     
 }
