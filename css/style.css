@@ -172,6 +172,20 @@ main {
     margin: 0 1vw 1vw 0;
 }
 
+.grid a {
+    margin: 0 1vw 1vw 0;
+}
+
+p a {
+    color: rgb(12, 22, 158);
+    text-decoration:  none;
+    transition: all 0.2s linear;
+}
+
+p a:hover {
+    color: white;
+}
+
 .filmTit {
     font-style: italic;
     transition: all 0.2s linear;

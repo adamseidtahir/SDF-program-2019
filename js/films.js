@@ -137,6 +137,22 @@ var info = {
         "LeDomain": {
             "title": "LeDomain",
             "description": "LeDomain is a music video for a Hungarian alternative rock band's song 'ledomain'. This grotesque project was inspired by the reigning kings of Hungarian public transportation: the ticket controllers. With it's surrealistic approach the video clip tries to articulate the feelings of an everyday traveller as well as the controllers - who are all seem to be victims of the system."
+        },
+        "Leftovers": {
+            "title": "The Leftovers",
+            "description": "We asked all the films, that we didn’t select for the festival 2019, if they wanted to be shown in a specific monitor in the foajé during the festival. The leftovers are films that situate the festival in relation to what it is not. Recognizing other values than our own we acknowledge the precarious process of choosing that in the end forms the outcome of the program and the festival as a whole."
+        },
+        "Good": {
+            "title": "Good Tidings",
+            "description": "Over the course of the last few years, countless boats have reached the shores of Sicily on the Mediterranean sea, full of migrants. These boats are fleeing the radar controls, trying to reach the European land, the 'promised land' for many people escaping harsh living conditions. On a summer night in August, Bochra arrived on the Sicilian shore of Torre Salsa, carrying more than 100 people on board. The people quickly abandoned the boat and the beach, while Bochra remained alone in the limbo between sea and earth… until the tourists arrived."
+        },
+        "Text": {
+            "title": "Text Messages from the Universe",
+            "description": "This is a film that immerses its audience in subjective states of consciousness they might experience when they die.  It imagines what they can see and think and hear in a seamless but fragmentary flow of poetic images, words, dance and music.  It places the viewer in the position of going through a journey into their own interior world of dreams and projections in which time and space, and cause and effect logic, are turned on their heads. 'Text Messages from the Universe' is inspired by 'The Tibetan Book of the Dead', a text which guides souls on their 49 day transmigration through the ‘Bardo’, or intermediate state, between dying and rebirth. It also draws on the Yogic idea of the seven Chakras, or psychic energy centres, in visualizing this odyssey of movement, colour and consciousness. "
+        },
+        "Counter-Uniform": {
+            "title": "Counter-Uniform",
+            "description": "'Counter-Uniform' is an artistic video re-enactment of a historical event, the murder of student Alexis Grigoropoulos on December 6, 2008 by an armed police officer. The incident triggered a wave of nationwide indignation in Greece and gave rise to unprecedented riots, mainly the Athens, the 'worst since the restoration of democracy in 1974.' Sixty performers clash, while the camera minutely captures the violence, the persons’ bodies, feelings and faces, the overall ambience, the vibe, the fear, the dynamics of the crowd. With the help of a high-speed camera (400 frames per second), Makkas transforms three minutes of intense live action into a 45-minute single shot. Antistoli is structured as a slow-speed presentation of a single shot, without any external intervention in the flow and the development of the events and without editing."
         }
     },
     "artists": {
