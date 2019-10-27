@@ -454,11 +454,11 @@ footer a:hover {
 @media screen and (min-width: 2000px) {
 
     #modText h1 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     #modText ul li {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .close {
         font-size: 2vw;
