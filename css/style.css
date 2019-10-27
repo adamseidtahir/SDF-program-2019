@@ -449,11 +449,14 @@ footer a:hover {
 @media screen and (min-width: 2000px) {
 
     #modText h1 {
-        font-size: 4em;
+        font-size: 3vw;
     }
 
     #modText ul li {
-        font-size: 2em;
+        font-size: 2vw;
+    }
+    .close {
+        font-size: 2vw;
     }
     
 }
