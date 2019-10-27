@@ -8,7 +8,7 @@ var info = {
         },
         "Square": {
             "title": "Square of the Star",
-            "description": "A hybrid documentary exploring how choreography can be used as a tool in filmmaking. The filmmaker Karl-Oskar Gustafsson explores Karlaplan in Stockholm – a square built in the shape of a star. He creates a pattern where people walk in different orbits like planets, circling around and into the fountain, making encounters with each other. Interviews became the dialogue in the film."
+            "description": "'When is a meeting really over? What do I carry with me and what did I leave behind?' - Tuijja, participant of Square of the Star. In a big circular square in Stockholm, people are moving around the fountain like planets in orbits revolving the sun. To change orbits the participants need to twirl around each other, meaning full eye contact. They are later interviewed about their experience. The director Karl Oskar uses choreography to explore architectural and emotional space in urban everyday life."
         },
         "SKINNING/TRUE": {
             "title": "SKINNING/TRUE MESH/16:9 full time texture",
@@ -44,11 +44,11 @@ var info = {
         },
         "Good": {
             "title": "Good Tidings",
-            "description": "When the climate in the Mediterranean returns mild, boats full of migrants leave from the coasts of Africa and Asia trying to reach Europe, the 'promised land'. On a summer night, Bochra arrived on a beach in Sicily with over 130 people on board. All soon escaped. And Bochra remained alone in the limbo between sea and earth… until the tourists arrived."
+            "description": "Over the course of the last few years, countless boats have reached the shores of Sicily on the Mediterranean sea, full of migrants. These boats are fleeing the radar controls, trying to reach the European land, the &#39;promised land&#39; for many people escaping harsh living conditions. On a summer night in August, Bochra arrived on the Sicilian shore of Torre Salsa, carrying more than 100 people on board. The people quickly abandoned the boat and the beach, while Bochra remained alone in the limbo between sea and earth… until the tourists arrived."
         },
         "Things": {
             "title": "Things that start slowly",
-            "description": "This film triptych features images of a young baby and two women. The women are seen both in early pregnancy and then later at about nine months. Running through it is a pervading sense of loss; a restless tension between things that remain, and things that disappear over time."
+            "description": "This moving image triptych features images of a young baby and two women. The women are seen both in early pregnancy and then later at about nine months. Running through it is a pervading sense of loss; a restless tension between things that remain, and things that disappear over time."
         },
         "∞": {
             "title": "∞",
@@ -150,9 +150,9 @@ var info = {
             "title": "Text Messages from the Universe",
             "description": "This is a film that immerses its audience in subjective states of consciousness they might experience when they die.  It imagines what they can see and think and hear in a seamless but fragmentary flow of poetic images, words, dance and music.  It places the viewer in the position of going through a journey into their own interior world of dreams and projections in which time and space, and cause and effect logic, are turned on their heads. 'Text Messages from the Universe' is inspired by 'The Tibetan Book of the Dead', a text which guides souls on their 49 day transmigration through the ‘Bardo’, or intermediate state, between dying and rebirth. It also draws on the Yogic idea of the seven Chakras, or psychic energy centres, in visualizing this odyssey of movement, colour and consciousness. "
         },
-        "Counter-Uniform": {
-            "title": "Counter-Uniform",
-            "description": "'Counter-Uniform' is an artistic video re-enactment of a historical event, the murder of student Alexis Grigoropoulos on December 6, 2008 by an armed police officer. The incident triggered a wave of nationwide indignation in Greece and gave rise to unprecedented riots, mainly the Athens, the 'worst since the restoration of democracy in 1974.' Sixty performers clash, while the camera minutely captures the violence, the persons’ bodies, feelings and faces, the overall ambience, the vibe, the fear, the dynamics of the crowd. With the help of a high-speed camera (400 frames per second), Makkas transforms three minutes of intense live action into a 45-minute single shot. Antistoli is structured as a slow-speed presentation of a single shot, without any external intervention in the flow and the development of the events and without editing."
+        "Antistoli": {
+            "title": "Antistoli (Counter-Uniform)",
+            "description": "'Antistoli (Counter-Uniform)' is an artistic video re-enactment of a historical event, the murder of student Alexis Grigoropoulos on December 6, 2008 by an armed police officer. The incident triggered a wave of nationwide indignation in Greece and gave rise to unprecedented riots, mainly the Athens, the 'worst since the restoration of democracy in 1974.' Sixty performers clash, while the camera minutely captures the violence, the persons’ bodies, feelings and faces, the overall ambience, the vibe, the fear, the dynamics of the crowd. With the help of a high-speed camera (400 frames per second), Makkas transforms three minutes of intense live action into a 45-minute single shot. Antistoli is structured as a slow-speed presentation of a single shot, without any external intervention in the flow and the development of the events and without editing."
         }
     },
     "artists": {
